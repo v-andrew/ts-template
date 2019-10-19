@@ -1,0 +1,15 @@
+{
+  "name": "ts-temlate",
+  "version": "1.0.0",
+  "description": "Template is an example project, created to be a template for a new NodeJs console application.",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew V",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.11.1"
+  }
+}
