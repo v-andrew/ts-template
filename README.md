@@ -12,4 +12,4 @@ It uses TypeScript's async/await and has simple parser of command line aguments
   - `npm i -g typescript`
 4. Install modules
   - `npm install`
-5. Project has redy to run config for VS Code in `.vscode\launch.json` 
+5. Project has ready to run config for VS Code in `.vscode\launch.json` 
