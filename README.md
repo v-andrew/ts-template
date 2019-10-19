@@ -7,9 +7,9 @@ It uses TypeScript's async/await and has simple parser of command line aguments
 # Setup
 
 1. Fork project
-1. Clone
-1. Install TypeScript
+2. Clone
+3. Install TypeScript
   - `npm i -g typescript`
-1. Install modules
+4. Install modules
   - `npm install`
-1. Project has redy to run config for VS Code in `.vscode\launch.json` 
+5. Project has redy to run config for VS Code in `.vscode\launch.json` 
