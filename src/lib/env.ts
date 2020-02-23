@@ -1,6 +1,6 @@
 const defaults = {
     help: false,
-    do: 'hello' // default action
+    run: 'hello' // default action
 }
 
 export class Env {
@@ -16,9 +16,10 @@ export class Env {
     private static parseCmdLine(): {}{
         const result = {}
         process.argv.forEach(s => {
-            console.log(s)
+            // console.info(s)
             const pair = s.split('=')
             if(!pair) return
+            result[pair[0]] = pair[1]
         })
         return result
     }

@@ -2,7 +2,7 @@ import { Env } from './lib/env';
 import { helloWorld } from './helloWorld';
 
 const usage = `[run=[hello] | help]
-  run=[hello]  - exexutes action
+  run=[hello]  - executes action
   help         - shows help screen
 example:        run=hello
   executes 'helloWorld()'
@@ -10,7 +10,7 @@ example:        run=hello
 
 (async () => {
     console.time('ts-template')
-    const command = Env.args.do
+    const command = Env.args.run
     switch (command) {
         case 'hello':
             await helloWorld()
